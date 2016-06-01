@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="css/text">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Crazy Mad-Libs</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Build your story</h1>
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="person1">A Name</label>
+          <input id="person1" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="person2">Second person/name</label>
+          <input id="person2" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="place">A place</label>
+          <input id="place" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="transportation">A type of transportation</label>
+          <input id="transportation" class="form-group" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="exclamation">Exclamation</label>
+          <input id="exclamation" class="form-group" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="adjective">An adjective</label>
+          <input id="adjective" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" class="form-group" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>Your story</h1>
+      <p><span class="person1"></span> and <span class="person2"></span> woke up one morning and decided to go to <span class="place"></span> by <span class="transportation"></span>. <span class="exclamation"></span>, there's a <span class="adjective"></span> <span class="animal"></span> in here!!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
